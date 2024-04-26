@@ -1,0 +1,176 @@
+body {
+  font-family: Meiryo;
+  width: 960px;
+  margin: 0 auto 0 auto;
+  padding: 0 4% 0 4%;
+  color: #383E45;
+  background-color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 14px;
+}
+
+h1 {
+  font-family: Meiryo;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: #383E45 solid 1px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: Meiryo;
+  font-size: 16px;
+}
+
+
+footer {
+  margin-top: 80px;
+}
+
+footer p {
+  font-family: Meiryo;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 1025px) {
+
+  h3 {
+    font-family: Meiryo;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #383E45;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2px 20px 2px 20px;
+    margin-left: 200px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  
+  .nav {
+    font-family: Meiryo;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 50px;
+  }
+  
+  nav {
+    margin-right: 150px;
+  }
+  
+  #main {
+    width: 100%;
+    height: 600px;
+  }
+
+  #person {
+    border-radius: 50%;
+    margin-right: 50px;
+    width: 100px;
+    height: 100px;
+  }  
+
+  #photo-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #about-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about-div2 {
+    text-align: center;
+  }
+
+  .photo {
+    width: 33%;
+  }
+
+}
+
+
+@media screen and (max-width: 1024px){
+  
+  h3 {
+    font-family: Meiryo;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #383E45;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 2px 20px 2px 20px;
+    margin-left: 10px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  
+  .nav {
+    font-family: Meiryo;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  nav {
+    margin-right: 10px;
+  }
+  
+  #main {
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  #about-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #person {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }  
+
+  #photo-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.p {
+  width: 100%;
+  text-align: cnter;
+  padding-bottom: 40px;
+}
+
+}
