@@ -20,9 +20,12 @@ h1 {
   font-size: 38px;
   font-weight: bold;
   text-align: center;
-  border-bottom: #383E45 solid 1px;
   margin-top: 80px;
   margin-bottom: 50px;
+}
+
+h1 > span {
+  border-bottom: #383E45 solid 1px;
 }
 
 h2 {
@@ -146,6 +149,7 @@ footer p {
   
   #main {
     height: 600px;
+    width: 100%;
     overflow: hidden;
     margin-bottom: 80px;
     text-align: center;
@@ -162,6 +166,7 @@ footer p {
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    display: flex;
     justify-content: center;
     text-align: center;
   }  
@@ -172,6 +177,10 @@ footer p {
     justify-content: center;  
     text-align: center;
   }
+
+.photo {
+  margin-bottom: 20px;
+}
 
 .p {
   width: 100%;
