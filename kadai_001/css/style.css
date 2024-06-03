@@ -1,0 +1,120 @@
+/*PC、スマホ共通スタイル*/
+
+ body {
+  max-width: 1200px;
+  min-width: 768px;
+  margin: 0 auto 0 auto;
+  font-size: 18px;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: "Noto Sans Japanese","Noto+Sans+JP"; 
+
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 900
+
+  .noto-sans-jp-<uniquifier> {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+ }
+
+ header {
+  font-size: 34px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+ }
+
+ #title {
+  border: 1px solid #000000;
+  padding: 0 15px 0 15px;
+  margin-left: 100px;
+ }
+
+ #nav-pc {
+  font-size: 34px;
+  text-align: right;
+ }
+ #nav-pc > a {
+  margin-right: 15px;
+ }
+
+ #main-visual {
+  margin-top: 60px;
+  margin-bottom: 100px;
+ }
+
+ #main-photo {
+  width: 100%;
+ }
+
+ a:hover {
+  text-decoration: none;
+  color: #000000;
+ } 
+
+ a:visited {
+  text-decoration: none;
+  color: #000000;
+ }
+
+ a:link {
+  text-decoration: none;
+  color: #000000;
+ }
+
+ a:active {
+  text-decoration: none;
+  color: #000000;
+ }
+
+ h1 {
+  font-size: 34px;
+  text-align: center;
+  margin: 100px;
+ }
+
+ h2 {
+  font-size: 24px;
+ }
+
+ #about-photo {
+  border-radius: 50%;
+  margin-right: 100px;
+ }
+
+ #flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+ }
+
+ #flex2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ }
+
+ .works-div {
+  padding: 0 10px 0 10px;
+  width: 25%;
+ }
+
+ footer {
+  text-align: center;
+  margin-top: 100px;
+ }
+
+ /* 横幅が767pxまでの場合 */
+
+@media (max-width: 767px) {
+  .works-div {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 30px;
+  }
+}
